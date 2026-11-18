@@ -23,7 +23,7 @@ public class JavaApplication5 {
 class JDBCUtil {
     public static Connection getConnection() {
         try {
-            String url = "jdbc:sqlserver://localhost\\SQLEXPRESS:1433;databaseName=master;encrypt=true;trustServerCertificate=true;";
+            String url = "jdbc:sqlserver://localhost\\SQLEXPRESS:1433;databaseName=QuanLySinhVien;encrypt=true;trustServerCertificate=true;";
             String user = "sa";
             String pass = "2007";
             return DriverManager.getConnection(url, user, pass);
