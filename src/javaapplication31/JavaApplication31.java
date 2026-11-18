@@ -1,4 +1,4 @@
-package qlsv;
+package Quanlysinhvien;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
@@ -6,7 +6,7 @@ import java.awt.*;
 import java.sql.*;
 import java.util.ArrayList;
 
-public class quanlysinhvien1 {
+public class JavaApplication31 {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> new LoginView().setVisible(true));
     }
@@ -465,4 +465,3 @@ lamMoi(); JOptionPane.showMessageDialog(this, "Đã xóa điểm!");
 } catch (Exception ex) { JOptionPane.showMessageDialog(this, "Lỗi xóa: " + ex.getMessage()); }
 }
 }
- 
