@@ -1,4 +1,8 @@
-package Quanlysinhvien;
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package javaapplication5;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
@@ -6,8 +10,9 @@ import java.awt.*;
 import java.sql.*;
 import java.util.ArrayList;
 
-public class JavaApplication31 {
-    public static void main(String[] args) {
+public class JavaApplication5 {
+
+        public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> new LoginView().setVisible(true));
     }
 }
@@ -19,7 +24,7 @@ class JDBCUtil {
     public static Connection getConnection() {
         try {
             String url = "jdbc:sqlserver://localhost\\SQLEXPRESS:1433;databaseName=master;encrypt=true;trustServerCertificate=true;";
-            String user = "kiet";
+            String user = "Hai";
             String pass = "2007";
             return DriverManager.getConnection(url, user, pass);
         } catch (Exception e) {
